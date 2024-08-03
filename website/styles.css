@@ -4,11 +4,12 @@
     font-color: #295657;
 }
 .web-title {
+    display: flex;
+    justify-content: flex-end;
     color: #19C14C;
 }
 .nav-bar {
-    display: flex;
-    align-items: space-between; 
+    display: block;
     position: sticky;
     background-color: #295657;
     height: 5%;
