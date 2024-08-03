@@ -1,0 +1,44 @@
+* {
+    font-family: sans-serif;
+}
+.web-title {
+    color: #19C14C;
+}
+.nav-bar {
+    display: flex;
+    align-items: space-between; 
+    position: sticky;
+    background-color: #295657;
+    height: 5%;
+    width: 100vm;
+}
+.nav-options {
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-option {
+    color: #B3EDD5;
+    display: flex;
+    align-items: space-around;
+    justify-content: flex-end;
+}
+.text-box .map-inner-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #B3EDD5;
+    border-radius: 20%;
+    color: #295657;
+}
+.map-header {
+    display: block;
+}
+.map-info {
+    background-color: #7FB5A4;
+    border-radius: 20%;
+    color: #295657;
+}
+.map {
+    color: grey;
+    height: 40vm;
+    width: 40vm;
+}
