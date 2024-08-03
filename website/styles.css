@@ -10,6 +10,8 @@ body {
 }
 .web-title {
     display: flex;
+    width: 35vm;
+    
 }
 .nav-bar {
     display: flex;
@@ -21,9 +23,13 @@ body {
 }
 .nav-options {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 35vm;
 }
 .nav-option {
     color: #B3EDD5;
+    
 }
 .map-container {
     background-color: #B3EDD5;
